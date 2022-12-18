@@ -76,20 +76,25 @@
 
   }
 
+  .lady {
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+  }
+
   .elipse {
     width: 136px;
     height: 230px;
 
-    bottom: calc(100% - 400px);
+    bottom: calc(100% - 34px);
     right: calc(50% - 318px);
-    /*проверить формулу*/
+
   }
 
   .lady>img {
-
     width: 250px;
     height: 208px;
-    bottom: calc(100% - 398px);
+    bottom: calc(100% - 34px);
     right: calc(50% - 343px);
   }
 
@@ -444,24 +449,21 @@
   .lady {
     margin-top: 0;
     margin-left: 0;
-
+    position: relative;
   }
 
   .elipse {
     width: 310px;
     height: 510.48px;
-    bottom: calc(100% - 663px);
-    /* right: calc(50% - 700px); */
-    transform: translateX(22%);
+    bottom: calc(100% - 145px);
+    right: calc(50% - 603px);
   }
 
   .lady>img {
     width: 572px;
     height: 463px;
-    bottom: calc(100% - 663px);
-    right: 0;
-    /* right: calc(50% - 630px); */
-    transform: translateX(120%);
+    bottom: calc(100% - 145px);
+    right: calc(50% - 630px);
   }
 
   /* section class="benefit__items" */
