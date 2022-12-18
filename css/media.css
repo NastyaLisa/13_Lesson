@@ -165,7 +165,178 @@
     margin: 5px 10px 0 10px;
   }
 
-  /* 
+  /* <section class="services"> */
+  .services {
+    margin: 60px auto 0;
+    max-width: 1020px;
+    height: 100%;
+    position: relative;
+  }
+
+  .services__items {
+
+    display: grid;
+    grid-template-columns: repeat(2, 505px);
+    row-gap: 40px;
+    margin: 60px auto 0;
+    max-width: 1010px;
+  }
+
+  .services__1,
+  .services__3,
+  .services__5 {
+    text-align: right;
+  }
+
+  .services__2,
+  .services__4,
+  .services__6 {
+    text-align: left;
+
+  }
+
+  .services__item__accent {
+    align-items: flex-end;
+    color: var(--color-accent);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 5px;
+
+    /* margin: 10px; */
+  }
+
+  .services__item__text {
+    font-size: 16px;
+    line-height: 19px;
+    white-space: pre-line;
+    padding-bottom: 5px;
+  }
+
+  .services__1 {
+    margin-right: 161px;
+  }
+
+  .services__2 {
+    margin-left: 161px;
+  }
+
+  .services__3 {
+    margin-right: 215px;
+  }
+
+  .services__4 {
+    margin-left: 215px;
+  }
+
+  .services__5 {
+    margin-top: 10px;
+    margin-right: 118px;
+  }
+
+  .services__6 {
+    margin-top: 10px;
+    margin-left: 118px;
+  }
+
+  .logo__dot {
+    position: absolute;
+    bottom: 44%;
+    right: 35%;
+    z-index: 1;
+    width: 302px;
+    height: 302px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  .logo__dot>img {
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+
+  .dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    border: 1px solid var(--color-accent);
+    background-color: var(--color-accent);
+    text-align: center;
+    color: var(--background-color);
+    font-family: "SofiaSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    line-height: 140%;
+    position: absolute;
+
+  }
+
+  .dot__1 {
+    bottom: 86%;
+    right: 79%;
+    z-index: 2;
+  }
+
+
+  .dot__2 {
+    bottom: 86%;
+    right: 16%;
+    z-index: 2;
+  }
+
+
+  .dot__3 {
+    bottom: 45%;
+    right: 96%;
+    z-index: 2;
+  }
+
+  .dot__4 {
+    bottom: 45%;
+    right: -4%;
+    z-index: 2;
+
+  }
+
+
+  .dot__5 {
+    bottom: 9%;
+    right: 79%;
+    z-index: 2;
+  }
+
+  .dot__6 {
+    bottom: 9%;
+    right: 16%;
+    z-index: 2;
+  }
+
+  .attention {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .attention__text {
+    font-size: 20px;
+    line-height: 28px;
+    line-height: 140%;
+    color: var(--color-accent);
+  }
+
+
+
+
+
+
+
   /* section class="form__inner__container"> */
   .form__inner__container {
     max-width: 650px;
