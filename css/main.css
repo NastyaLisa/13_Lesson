@@ -394,8 +394,8 @@ ul {
 }
 
 .logo__dot>img {
-  top: 0;
   position: absolute;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
@@ -415,49 +415,45 @@ ul {
   font-family: "SofiaSans";
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  /* line-height: 140%; */
+  /* line-height: 16px; */
+  text-align: center;
+  line-height: 140%;
   position: absolute;
+  z-index: 2;
 
 }
 
 .dot__1 {
   bottom: 86%;
   right: 79%;
-  z-index: 2;
 }
 
 
 .dot__2 {
   bottom: 86%;
   right: 16%;
-  z-index: 2;
 }
 
 
 .dot__3 {
   bottom: 45%;
   right: 96%;
-  z-index: 2;
 }
 
 .dot__4 {
   bottom: 45%;
   right: -4%;
-  z-index: 2;
 
 }
 
 .dot__5 {
   bottom: 9%;
   right: 79%;
-  z-index: 2;
 }
 
 .dot__6 {
   bottom: 9%;
   right: 16%;
-  z-index: 2;
 }
 
 .attention {
@@ -473,8 +469,7 @@ ul {
 
 .attention__text {
   font-size: 16px;
-  /* line-height: 28px;
-  line-height: 140%; */
+  line-height: 28px;
   color: var(--color-accent);
 }
 
