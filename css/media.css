@@ -1,7 +1,6 @@
-@media screen and (min-width: 481px) and (max-width:992px) {
+@media screen and (min-width: 481px) and (max-width: 992px) {
   .container {
     max-width: 992px;
-
   }
 
   html {
@@ -87,7 +86,6 @@
     height: 230px;
     bottom: calc(100% - 34px);
     right: calc(50% - 318px);
-
   }
 
   .lady>img {
@@ -250,7 +248,6 @@
 
   .form {
     column-gap: 68px;
-
   }
 
   input {
@@ -273,7 +270,6 @@
     width: 180px;
     height: 57px;
     font-size: 19px;
-
   }
 
   /* <section class="clients"> */
@@ -338,15 +334,14 @@
     font-size: 20px;
   }
 
-
   .lang {
     font-size: 20px;
     line-height: 23px;
   }
 
   .time__work {
-    font-size: 20px;
     margin: 75px 0 0 90px;
+    font-size: 20px;
     line-height: 1.35;
   }
 
@@ -402,11 +397,9 @@
     font-size: 13px;
     line-height: 17px;
   }
-
 }
 
 @media screen and (min-width: 993px) {
-
   html {
     font-size: 16px;
   }
@@ -448,7 +441,6 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     column-gap: 80px;
-
     line-height: 19px;
     padding-top: 18px;
   }
@@ -680,7 +672,6 @@
     right: 35%;
     width: 302px;
     height: 302px;
-
   }
 
   .logo__dot>img {
@@ -907,6 +898,4 @@
     font-size: 13px;
     line-height: 17px;
   }
-
-
 }

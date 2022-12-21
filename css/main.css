@@ -1,7 +1,3 @@
-/* 600
-font-family: 'Roboto Flex',
-sans-serif; */
-
 :root {
   --color-accent: #46b1de;
   --color-main: #000000;
@@ -231,8 +227,6 @@ ul {
   margin-bottom: 15px;
 }
 
-
-
 .benefit__accent {
   padding-right: 15px;
   padding-left: 13px;
@@ -306,7 +300,6 @@ ul {
 }
 
 .feature__text {
-  /* font-size: 12px; */
   text-align: left;
   margin: 5px 0 5px 0;
 }
@@ -457,7 +450,6 @@ ul {
   line-height: 28px;
   color: var(--color-accent);
 }
-
 
 /* section class="form__inner"> */
 .form__inner__container {
@@ -619,6 +611,7 @@ input::placeholder {
   margin: 0;
   font-family: "SofiaSans";
   font-style: normal;
+  font-weight: 400;
   font-size: 27px;
   color: var(--text--footer-color);
 }
